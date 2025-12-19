@@ -1,0 +1,148 @@
+*{ margin-top: 0;
+box-sizing: border-box;
+padding: 0;}
+
+
+.navbar{align-items: center;
+    display: flex;
+    background: rgb(55, 55, 56);
+    padding: 40px 50px;
+    justify-content: space-between;
+    box-sizing: content-box ;
+}
+ button {
+        padding: 10px 20px;
+        margin: 20px 10px;
+        cursor: pointer;
+        color: rgb(9, 10, 10);
+        background: rgba(223, 223, 228, 0.2);
+        border: 2px solid rgb(15, 16, 17);
+        border-radius: 10px;
+        font-size: 15px;
+        backdrop-filter: blur(3px);
+        align-items: center;
+       align-content: center;
+    }
+
+.logo{color: whitesmoke;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;}
+
+.navlinks{list-style: none;
+    display: flex;
+    gap: 30px;
+ }
+ .navlinks a{ text-decoration: dotted;
+color: antiquewhite;
+font-size: 18px;}
+
+.navlinks a:hover{
+    color:aqua
+}
+
+#slider{ width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgb(0, 4, 255);
+}
+
+.section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;}
+
+
+#hero{
+    font-size: 20px;
+    color:rgba(43, 46, 45, 0.884);
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+    color: black;
+}
+
+#SKILLS{
+    background: linear-gradient(to bottom left, #dedde9, #c3b7c4);
+    padding: 30px;
+    text-align: center;
+    padding-top: 35px;
+    color: rgb(5, 5, 5);
+    font-family: Arial, sans-serif;
+    font-style: oblique;
+}
+
+#skills{
+display: flex;
+flex-direction: row;
+gap: 20px;
+color: rgb(12, 12, 12);
+text-align: center;
+font-family: Arial, sans-serif;
+font-style: oblique;
+}
+
+#projects{list-style: none;
+display: flex;
+flex-direction: column;
+padding: 10px;
+color: rgb(10, 10, 10);
+padding-inline: 20px;
+font-family: Arial, sans-serif;
+font-style: oblique;
+text-align: center;
+}
+.footer-section{
+    background: black;
+    color: azure;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+#about{background: linear-gradient(to bottom left, #dedde9, #c3b7c4);
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding-top: 0;
+        color: rgb(7, 7, 7);
+        font-style: oblique;
+        word-spacing: normal;
+        margin: auto;
+        box-sizing: border-box;
+}
+
+.socials{
+    display: flex;
+    gap: 30px;
+}
+.socials a{
+    text-decoration: double;
+    font-weight: bold;
+    color: aqua;
+}
+.socials a:hover{
+    color: rgb(58, 15, 214);
+}
+
+.work1{
+    display: flex;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+    font-style: oblique;
+}
+
+.card{
+    flex: 1;
+    background: #dedde9;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+#info{
+    text-align: center;
+    display: flex;
+    font-style: italic;
+}
